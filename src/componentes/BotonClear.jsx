@@ -1,9 +1,9 @@
 import "../css/BotonClear.css";
 function BotonClear(props) {
   return (
-    <div className="boton-clear" onClick={() => props.manejarClear()}>
+    <button className="boton-clear" onClick={() => props.manejarClear()}>
       Clear
-    </div>
+    </button>
   );
 }
 export default BotonClear;
