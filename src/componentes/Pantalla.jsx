@@ -1,5 +1,5 @@
 import "../css/Pantalla.css";
-function Pantalla({ input }) {
-  return <div className="input">{input}</div>;
+function Pantalla({ estado }) {
+  return <div className="input">{estado}</div>;
 }
 export default Pantalla;
